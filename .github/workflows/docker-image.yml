@@ -35,7 +35,7 @@ jobs:
           context: ./
           # Note: tags has to be all lower-case
           tags: |
-            cantonerobin/modul300_ci-cd
+            cantonerobin/modul300_ci-cd:latest
           push: true
             
       - name: Image digest
