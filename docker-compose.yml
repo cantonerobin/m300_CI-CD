@@ -1,7 +1,7 @@
 version: '3'
 services:
   web:
-    image: img-static-site-example
+    image: cantonerobin/modul300_ci-cd:latest
     build: .
     container_name: my-static-site
     restart: always
