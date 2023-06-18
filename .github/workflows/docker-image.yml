@@ -35,7 +35,7 @@ jobs:
           context: ./
           # Note: tags has to be all lower-case
           tags: |
-            cantonerobin/modul300_ci-cd:latest
+            cantonerobin/modul300_ci-cd
             
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
