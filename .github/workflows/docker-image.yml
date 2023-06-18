@@ -36,7 +36,7 @@ jobs:
           # Note: tags has to be all lower-case
           tags: |
             cantonerobin/modul300_ci-cd:latest
-         # push: ${{ github.ref == 'refs/heads/main' }}
+         push: true
             
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
