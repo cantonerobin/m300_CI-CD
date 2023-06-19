@@ -1,0 +1,1 @@
+{"virtualbox":{"/opt":{"guestpath":"/opt","hostpath":"D:/git/m300_CI-CD","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"D:/git/m300_CI-CD/vagrant","disabled":false,"__vagrantfile":true}}}
