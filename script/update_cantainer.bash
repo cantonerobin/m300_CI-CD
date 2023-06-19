@@ -34,11 +34,3 @@ else
   echo "Es ist keine Aktualisierung erforderlich. Das Image ist bereits auf dem neuesten Stand."
 fi
 
-docker kill webserver
-
-docker run -d \
-  --name webserver \
-  --restart unless-stopped \
-  --expose 80 \
-  --network docker-network \
-  cantonerobin/modul300_ci-cd:latest
