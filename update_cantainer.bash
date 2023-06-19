@@ -1,8 +1,9 @@
-    # Stoppen und Entfernen des bestehenden Containers
-    docker-compose -f /path/to/docker-compose.yml down
+#!/bin/bash
+# Stop running container
+docker-compose -f /path/to/docker-compose.yml down
 
-    # Pullen des aktualisierten Images
-    docker-compose -f /path/to/docker-compose.yml pull
+# Pull new Image
+docker-compose -f /path/to/docker-compose.yml pull
 
-    # Starten des aktualisierten Containers
-    docker-compose -f /path/to/docker-compose.yml up -d
+# Start container
+docker-compose -f /path/to/docker-compose.yml up -d
